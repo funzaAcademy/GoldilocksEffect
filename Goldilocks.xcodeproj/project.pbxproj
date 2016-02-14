@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F6724471C65C52E0058AA44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6724461C65C52E0058AA44 /* AppDelegate.swift */; };
+		3F6724491C65C52E0058AA44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6724481C65C52E0058AA44 /* ViewController.swift */; };
+		3F67244C1C65C52E0058AA44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F67244A1C65C52E0058AA44 /* Main.storyboard */; };
+		3F67244E1C65C52E0058AA44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F67244D1C65C52E0058AA44 /* Assets.xcassets */; };
+		3F6724511C65C52E0058AA44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F67244F1C65C52E0058AA44 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F6724431C65C52E0058AA44 /* Goldilocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goldilocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6724461C65C52E0058AA44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F6724481C65C52E0058AA44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F67244B1C65C52E0058AA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F67244D1C65C52E0058AA44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F6724501C65C52E0058AA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F6724521C65C52E0058AA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F6724401C65C52E0058AA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F67243A1C65C52E0058AA44 = {
+			isa = PBXGroup;
+			children = (
+				3F6724451C65C52E0058AA44 /* Goldilocks */,
+				3F6724441C65C52E0058AA44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F6724441C65C52E0058AA44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F6724431C65C52E0058AA44 /* Goldilocks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F6724451C65C52E0058AA44 /* Goldilocks */ = {
+			isa = PBXGroup;
+			children = (
+				3F6724461C65C52E0058AA44 /* AppDelegate.swift */,
+				3F6724481C65C52E0058AA44 /* ViewController.swift */,
+				3F67244A1C65C52E0058AA44 /* Main.storyboard */,
+				3F67244D1C65C52E0058AA44 /* Assets.xcassets */,
+				3F67244F1C65C52E0058AA44 /* LaunchScreen.storyboard */,
+				3F6724521C65C52E0058AA44 /* Info.plist */,
+			);
+			path = Goldilocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F6724421C65C52E0058AA44 /* Goldilocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6724551C65C52E0058AA44 /* Build configuration list for PBXNativeTarget "Goldilocks" */;
+			buildPhases = (
+				3F67243F1C65C52E0058AA44 /* Sources */,
+				3F6724401C65C52E0058AA44 /* Frameworks */,
+				3F6724411C65C52E0058AA44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Goldilocks;
+			productName = Goldilocks;
+			productReference = 3F6724431C65C52E0058AA44 /* Goldilocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F67243B1C65C52E0058AA44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "funza Academy";
+				TargetAttributes = {
+					3F6724421C65C52E0058AA44 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 3F67243E1C65C52E0058AA44 /* Build configuration list for PBXProject "Goldilocks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F67243A1C65C52E0058AA44;
+			productRefGroup = 3F6724441C65C52E0058AA44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F6724421C65C52E0058AA44 /* Goldilocks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F6724411C65C52E0058AA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6724511C65C52E0058AA44 /* LaunchScreen.storyboard in Resources */,
+				3F67244E1C65C52E0058AA44 /* Assets.xcassets in Resources */,
+				3F67244C1C65C52E0058AA44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F67243F1C65C52E0058AA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6724491C65C52E0058AA44 /* ViewController.swift in Sources */,
+				3F6724471C65C52E0058AA44 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F67244A1C65C52E0058AA44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F67244B1C65C52E0058AA44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F67244F1C65C52E0058AA44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6724501C65C52E0058AA44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F6724531C65C52E0058AA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F6724541C65C52E0058AA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F6724561C65C52E0058AA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Goldilocks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.funza.Goldilocks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F6724571C65C52E0058AA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Goldilocks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.funza.Goldilocks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F67243E1C65C52E0058AA44 /* Build configuration list for PBXProject "Goldilocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6724531C65C52E0058AA44 /* Debug */,
+				3F6724541C65C52E0058AA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6724551C65C52E0058AA44 /* Build configuration list for PBXNativeTarget "Goldilocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6724561C65C52E0058AA44 /* Debug */,
+				3F6724571C65C52E0058AA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F67243B1C65C52E0058AA44 /* Project object */;
+}
